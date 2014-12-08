@@ -11,7 +11,6 @@ def get_form_vals(post_str):
     return form_vals
 
 def animal_data(environ, start_response):
-    #print("ENVIRON:", environ)
     message=""
     status = '200 OK'
     headers = [('Content-type', 'html; charset=utf-8')]
